@@ -151,7 +151,7 @@ Użyj archiwum-delta.yaml, aby utworzyć system archiwizacji. Po uruchomieniu po
 
 Znajdź w interfejsie Longhorn ostatni dostępny backup dla wolumenu pvc-archiwum-delta. Następnie przywróć ten backup do *nowego* PersistentVolumeClaim o nazwie pvc-archiwum-delta-przywrocone (w tym samym namespace). Na koniec, przekonfiguruj archiwum-delta, aby używało tego przywróconego wolumenu. Oryginalny, "uszkodzony" PVC (pvc-archiwum-delta) powinien pozostać nietknięty ale odłączony od poda. **6pkt**
 
-Misja doomwar:
+# Misja doomwar:
 
 Udostepniam jako clusterip bo w wymaganiach jest ze ma byc dostepny dla calego clustra co nie znaczy ze dla calego internetu :)
 
