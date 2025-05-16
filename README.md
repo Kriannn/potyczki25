@@ -66,8 +66,12 @@ Sukces misji oznacza działającą aplikację storage oraz dostępną StorageCla
 ### Misja 3 - operacja "Koci Pazur"
 Kot prezesa się nudzi, należy mu zapewnić jakąś rozrywkę.
 Dodaj nowe repozytorium do katalogu aplikacji Ranchera. URL repo: https://rancher.github.io/rodeo **5pkt**
+![Zrzut ekranu 2025-05-16 114157](https://github.com/user-attachments/assets/710c1990-2714-4119-98ff-d5bf6f58b28c)
+![Zrzut ekranu 2025-05-16 114205](https://github.com/user-attachments/assets/f8a5a9ba-cbe8-411e-b387-2e5bde668ca7)
 
 Zainstaluj dowolną grę z nowo dodanego repo. **5 pkt**
+![Zrzut ekranu 2025-05-16 123923](https://github.com/user-attachments/assets/24bc8650-7465-4dc2-a6eb-e72381826b19)
+![Zrzut ekranu 2025-05-16 123935](https://github.com/user-attachments/assets/644b1a5a-919c-4c48-86ff-44c19f00431b)
 
 ### Misja 4 - kryptonim "Armor Plate"
 Musimy wzmocnić nasze zabezpieczenia dedykowanymi rozwiązaniami security! Same firewalle to za mało w erze Kubernetes. Potrzebujemy najwyższej klasy ochrony - takiej jaka jest stosowana przez amerykańskie trzyliterowe służby.
@@ -77,14 +81,20 @@ Z katalogu aplikacji zainstaluj NeuVector w najnowszej stabilnej wersji. **5pkt*
 Włącz funkcję Auto-scan **1 pkt**
 
 Zbadaj czy istnieją podatności dla wersji Kubernetes uruchomionej na klastrze potyczki - podaj ich liczbę i jeśli nie jest równa zero, podnieś wersję Kubernetes klastra potyczki do 1.26. **5pkt**
+![Zrzut ekranu 2025-05-16 114512](https://github.com/user-attachments/assets/99a27712-c9ab-434e-b740-cb710ed3ec2e)
 
 Zbadaj czy istnieją podatności dla węzła (node) klastra potyczki - podaj ich liczbę i jeśli nie jest równa zero, dokonaj patchowania i aktualizacji systemu. **6pkt**
+![Zrzut ekranu 2025-05-16 114651](https://github.com/user-attachments/assets/4e007119-7318-4275-9546-2483175f8b3e)
 
 Ciekawe czy wrogie systemy mają podobne podatności, może dałoby się to wykorzystać?...
+
+Rozwiazanie: poczatkowa werjsa klastra 1.24.17+rke2r1 posiada 1 high CVE CVE-2023-5528: Insufficient input sanitization in in-tree storage plugin leads to privilege escalation on Windows nodes.
 
 ### Misja 5 - operacja Czyste Ręce
 Wdrożenie AI byłoby niesłychanie użyteczne w naszych zadaniach, idealnie byłoby zacząć od narzędzia Ollama. Ale trzeba  się upewnić, że te obrazy nie zawierają podatności - najpierw musimy je przeskanować! 
 Użyj NeuVector, żeby przeskanować repozytorium Ollama z rejestru https://registry.hub.docker.com ; jako rozwiązanie podaj nazwę image z największą ilością podatności, oraz liczbę tych podatności. **7pkt**
+
+zadanie 5: ollama/quantize:gguf 813 high 1687 medium
 
 ### Misja 6 - kryptonim Zero Zaufania
 Nasz system wczesnego ostrzegania wykrył podejrzaną aktywność, którą przechwycilismy. Wdróż na klastrze zinfiltrowany zasób w odpowiednim namespace (podejrzany-agent.yaml). Natychmiast odetnij wszelką komunikację sieciową (przychodzącą i wychodzącą) z/do tego poda, żebyśmy mogli go szczegółowo przeanalizować (wymaga pomyślnego ukończenia Misji 4). **10pkt**
