@@ -139,3 +139,11 @@ Kluczowy system archiwizacji został uszkodzony! Ale to nic dla naszego potężn
 Użyj archiwum-delta.yaml, aby utworzyć system archiwizacji. Po uruchomieniu poda, wejdź do jego konsoli i stwórz plik /dane/manifest-delta-v1.txt o treści "Protokół Delta aktywny.". **3pkt** Następnie, w interfejsie Longhorn, utwórz ręcznie backup wolumenu używanego przez tego poda. Teraz zasymuluj uszkodzenie danych poprzez usunięcie pliku manifest-delta-v1.txt z działającego poda. **5pkt**
 
 Znajdź w interfejsie Longhorn ostatni dostępny backup dla wolumenu pvc-archiwum-delta. Następnie przywróć ten backup do *nowego* PersistentVolumeClaim o nazwie pvc-archiwum-delta-przywrocone (w tym samym namespace). Na koniec, przekonfiguruj archiwum-delta, aby używało tego przywróconego wolumenu. Oryginalny, "uszkodzony" PVC (pvc-archiwum-delta) powinien pozostać nietknięty ale odłączony od poda. **6pkt**
+
+Misja doomwar:
+
+Udostepniam jako clusterip bo w wymaganiach jest ze ma byc dostepny dla calego clustra co nie znaczy ze dla calego internetu :)
+
+![Zrzut ekranu 2025-05-16 122739](https://github.com/user-attachments/assets/79cc36af-b643-45da-8a67-175ed838d011)
+![Zrzut ekranu 2025-05-16 122823](https://github.com/user-attachments/assets/43ea28d0-ae33-488c-a535-e55e55526d61)
+![Zrzut ekranu 2025-05-16 124234](https://github.com/user-attachments/assets/d2901e1d-bd45-43af-b58c-3fbb4f51523b)
