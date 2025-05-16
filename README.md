@@ -229,5 +229,7 @@ Udostepniam jako clusterip bo w wymaganiach jest ze ma byc dostepny dla calego c
 ![Zrzut ekranu 2025-05-16 122823](https://github.com/user-attachments/assets/43ea28d0-ae33-488c-a535-e55e55526d61)
 ![Zrzut ekranu 2025-05-16 124234](https://github.com/user-attachments/assets/d2901e1d-bd45-43af-b58c-3fbb4f51523b)
 ![Zrzut ekranu 2025-05-16 131019](https://github.com/user-attachments/assets/4a2bdfef-8eff-4ee3-a3bd-5469ae36e01c)
-![Zrzut ekranu 2025-05-16 131203](https://github.com/user-attachments/assets/a144478b-5368-42a3-8157-54d49b0725b9)
+![Zrzut ekranu 2025-05-16 133853](https://github.com/user-attachments/assets/c284b9f0-0a19-42fe-8741-2916d618264a)
+Dzialajacy request pod kod ^
+
 Blokujemy dostep
