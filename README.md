@@ -94,8 +94,9 @@ Rozwiazanie: poczatkowa werjsa klastra 1.24.17+rke2r1 posiada 1 high CVE CVE-202
 ### Misja 5 - operacja Czyste Ręce
 Wdrożenie AI byłoby niesłychanie użyteczne w naszych zadaniach, idealnie byłoby zacząć od narzędzia Ollama. Ale trzeba  się upewnić, że te obrazy nie zawierają podatności - najpierw musimy je przeskanować! 
 Użyj NeuVector, żeby przeskanować repozytorium Ollama z rejestru https://registry.hub.docker.com ; jako rozwiązanie podaj nazwę image z największą ilością podatności, oraz liczbę tych podatności. **7pkt**
+![Zrzut ekranu 2025-05-16 114900](https://github.com/user-attachments/assets/60f8f884-f64f-4cc8-a168-11367ae3705e)
 
-zadanie 5: ollama/quantize:gguf 813 high 1687 medium
+Rozwiazanie: ollama/quantize:gguf 813 high 1687 medium
 
 ### Misja 6 - kryptonim Zero Zaufania
 Nasz system wczesnego ostrzegania wykrył podejrzaną aktywność, którą przechwycilismy. Wdróż na klastrze zinfiltrowany zasób w odpowiednim namespace (podejrzany-agent.yaml). Natychmiast odetnij wszelką komunikację sieciową (przychodzącą i wychodzącą) z/do tego poda, żebyśmy mogli go szczegółowo przeanalizować (wymaga pomyślnego ukończenia Misji 4). **10pkt**
