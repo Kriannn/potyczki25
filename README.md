@@ -33,6 +33,30 @@ Na klastrze "potyczki" utwórz projekt "szk-server" a w nim namespace "ogloszeni
 - Skonfiguruj serwer aby serwował załączony plik index.html **4pkt**
 - Zapewnij dostępność usługi na internet. Nie masz czasu czekać do jutra aż administratorzy sieci udostępnią ci firmowy DNS, a potrzebujesz szybko przetestować dostępność, więc wymyśl jak zapewnić rozwiązywalny url wskazujący na IP hosta, na którym jest twój klaster "potyczki". **18pkt** (pełnym sukcesem operacji jest podanie adresu typu ogloszenia-krytyczne.xxxx.xxx rozwiązywalnego przy pomocy publicznego DNS z internetu, pod którym zgłosi się działająca strona internetowa);
 
+Rozwiazanie:
+Tworzymy projekt i namespace:
+
+![Zrzut ekranu 2025-05-16 113440](https://github.com/user-attachments/assets/d593cee9-b5fa-4e49-8897-8ef119f56b0d)
+
+Tworzymy config mapa by go podmontowac do podow:
+
+![Zrzut ekranu 2025-05-16 114413](https://github.com/user-attachments/assets/7bcff25b-1367-40f0-b0a7-6b4f8a7730d6)
+
+Tworzymy deloyment i dajemy podom labele asd asd by matchowac z serwisow:
+![Zrzut ekranu 2025-05-16 123306](https://github.com/user-attachments/assets/51b1063a-ce08-4bc9-8767-be609228ccb0)
+
+
+Udostepniamy deployment jako NodePort:
+
+![Zrzut ekranu 2025-05-16 115037](https://github.com/user-attachments/assets/dfe6a825-c7d5-48fd-8142-3965b31fd98c)
+![Zrzut ekranu 2025-05-16 115050](https://github.com/user-attachments/assets/18f56888-1869-46b4-b24b-ec3ae9969faf)
+
+![Zrzut ekranu 2025-05-16 115836](https://github.com/user-attachments/assets/8a2fa199-460f-4eb6-81dd-054431db5f61)
+Tworzymny ingresa ktory mapuje wszystko z domeny sslip do serwisu wczesniej utworzonego
+
+![Zrzut ekranu 2025-05-16 120012](https://github.com/user-attachments/assets/551ba20f-7db4-49e3-9c8d-139a2f08f418)
+Dzialajaca strona
+
 ### Misja 2 - kryptonim "Long Horn"
 Potrzebujemy Persistent Storage, szybko! Tylko musi być taki, żeby umożliwiał replikację! Wprawdzie i tak mamy tylko jeden serwer w klastrze, więc musimy ograniczyć liczbę replik do 1, ale sama obsługa replikacji jest ważna dla morale dowództwa - nieważne, że działa tylko na papierze... Nfs provisioner jest wykluczony, potrzebne jest coś lepszego. Gdyby tylko w Rancherze istniało jakieś repozytorium z łatwym w instalacji i obsłudze rozwiązaniem storage dla Kubernetes...
 
