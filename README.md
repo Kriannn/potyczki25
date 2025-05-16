@@ -115,6 +115,10 @@ Dokonaj "analizy" przechwyconego pakietu (znajdź odpowiednie narzędzie) - do s
 Dzięki owocnej współpracy z wywiadami innych krajów NATO pomyślnie przechwyciliśmy zaszyfrowaną rosyjską transmisję. Niestety moduł deszyfrujący uległ awarii - po krótkim śledztwie okazało się, że tym razem to nie działanie wroga, ale zwyczajna niekompetecja - ktoś bardzo mądrze użył AI do wygenerowania konfiguracji i zastąpił wszystkie istniejące kopie. Przeanalizuj i napraw deszyfrator-pod-uszkodzony.yaml - bez niego przechwycona transmisja jest bezużyteczna!
 
 Misja zakończona powodzeniem jesli pod deszyfrator przejdzie w stan Completed, a w jego logach pojawi się odszyfrowana wiadomość ("Zneutralizowac agenta KREML. Haslo: BURZA_MAJOWA") - załącz zrzut ekranu lub skopiowane w całości komunikaty shella wraz z poleceniem, które je wyzwoliło. **25pkt**
+![Zrzut ekranu 2025-05-16 124830](https://github.com/user-attachments/assets/d1556fc6-a472-4832-90ab-b5f31b857849)
+![Zrzut ekranu 2025-05-16 124854](https://github.com/user-attachments/assets/d43a925a-6384-4990-a420-cd7c946895b0)
+![Zrzut ekranu 2025-05-16 124957](https://github.com/user-attachments/assets/73b84905-0416-42d2-bffb-dc7db517d0c4)
+
 
 ### Misja 8 - "For Your Eyes Only"
 Nowo utworzony zespół szybkiego reagowania natychmiastowo potrzebuje tymczasowego dostępu read-only do logów aplikacji z naszego klastra. Zgodnie z zasadą zero-trust powninniśmy nadać im tylko niezbędne minimum uprawnień.
