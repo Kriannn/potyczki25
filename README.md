@@ -110,6 +110,7 @@ Przetestuj działanie zabezpieczeń dla połączeń przychodzących i wychodząc
 ![Zrzut ekranu 2025-05-16 130411](https://github.com/user-attachments/assets/d4528f0e-be80-4b1c-bddb-b5d050389bdc)
 
 Utwórz pomocniczego poda nginx o nazwie detektor w namespace kwarantanna. Zmień reguły zabezpieczeń podejrzanego poda, tak, aby dopuszczały połączenie do poda detektor. Wygeneruj ruch sieciowy z podejrzanego-agenta do detektora przy pomocy curl. Użyj NeuVector aby dokonać przechwycenia pakietów z tej komunikacji. **10pkt**
+![Zrzut ekranu 2025-05-16 131506](https://github.com/user-attachments/assets/83e2aed5-adf0-452a-bea0-aabeab88ae35)
 
 Zablokuj narzędzie curl przy pomocy NeuVector. Potwierdź działanie blokady curl pomimo przepuszczenia ruchu sieciowego do poda detektor (załącz zrzut ekranu lub skopiowane w całości komunikaty shella wraz z poleceniem, które je wyzwoliło). **7pkt**
 Wyeksportuj regułę jako CRD w trybie Protect i załącz do dokumentacji (**5 pkt**)
