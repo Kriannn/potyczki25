@@ -107,6 +107,7 @@ Nasz system wczesnego ostrzegania wykrył podejrzaną aktywność, którą przec
 Zdeployowany pod i ucieta komunikacja sieciowa.
 
 Przetestuj działanie zabezpieczeń dla połączeń przychodzących i wychodzących z podejrzanego poda. Załącz do odpowiedzi odpowiednie Security Violations z NeuVectora pokazujące zablokowaną próbę naruszenia blokady.**5pkt**
+![Zrzut ekranu 2025-05-16 130411](https://github.com/user-attachments/assets/d4528f0e-be80-4b1c-bddb-b5d050389bdc)
 
 Utwórz pomocniczego poda nginx o nazwie detektor w namespace kwarantanna. Zmień reguły zabezpieczeń podejrzanego poda, tak, aby dopuszczały połączenie do poda detektor. Wygeneruj ruch sieciowy z podejrzanego-agenta do detektora przy pomocy curl. Użyj NeuVector aby dokonać przechwycenia pakietów z tej komunikacji. **10pkt**
 
