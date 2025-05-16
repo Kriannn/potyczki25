@@ -116,6 +116,7 @@ Zablokuj narzędzie curl przy pomocy NeuVector. Potwierdź działanie blokady cu
 Wyeksportuj regułę jako CRD w trybie Protect i załącz do dokumentacji (**5 pkt**)
 
 Dokonaj "analizy" przechwyconego pakietu (znajdź odpowiednie narzędzie) - do sukcesu misji wystarczy, że skopiujesz pola opisujące jeden z pakietów: źródłowe i docelowe IP, protokół, długość, info. **7pkt**
+![Zrzut ekranu 2025-05-16 133957](https://github.com/user-attachments/assets/592a11d2-eb1f-46ed-8513-85b91b65b13b)
 
 ### Misja 7 - kryptonim Enigma Reactivation
 Dzięki owocnej współpracy z wywiadami innych krajów NATO pomyślnie przechwyciliśmy zaszyfrowaną rosyjską transmisję. Niestety moduł deszyfrujący uległ awarii - po krótkim śledztwie okazało się, że tym razem to nie działanie wroga, ale zwyczajna niekompetecja - ktoś bardzo mądrze użył AI do wygenerowania konfiguracji i zastąpił wszystkie istniejące kopie. Przeanalizuj i napraw deszyfrator-pod-uszkodzony.yaml - bez niego przechwycona transmisja jest bezużyteczna!
