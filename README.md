@@ -79,6 +79,7 @@ Musimy wzmocnić nasze zabezpieczenia dedykowanymi rozwiązaniami security! Same
 Z katalogu aplikacji zainstaluj NeuVector w najnowszej stabilnej wersji. **5pkt**
 
 Włącz funkcję Auto-scan **1 pkt**
+![Zrzut ekranu 2025-05-16 114343](https://github.com/user-attachments/assets/f0cca977-f832-4886-9250-1fa4b69e8381)
 
 Zbadaj czy istnieją podatności dla wersji Kubernetes uruchomionej na klastrze potyczki - podaj ich liczbę i jeśli nie jest równa zero, podnieś wersję Kubernetes klastra potyczki do 1.26. **5pkt**
 ![Zrzut ekranu 2025-05-16 114512](https://github.com/user-attachments/assets/99a27712-c9ab-434e-b740-cb710ed3ec2e)
