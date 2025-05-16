@@ -101,6 +101,10 @@ Rozwiazanie: ollama/quantize:gguf 813 high 1687 medium
 
 ### Misja 6 - kryptonim Zero Zaufania
 Nasz system wczesnego ostrzegania wykrył podejrzaną aktywność, którą przechwycilismy. Wdróż na klastrze zinfiltrowany zasób w odpowiednim namespace (podejrzany-agent.yaml). Natychmiast odetnij wszelką komunikację sieciową (przychodzącą i wychodzącą) z/do tego poda, żebyśmy mogli go szczegółowo przeanalizować (wymaga pomyślnego ukończenia Misji 4). **10pkt**
+![Zrzut ekranu 2025-05-16 125359](https://github.com/user-attachments/assets/9d21a725-993f-48ef-8886-bcb2df9c162e)
+![Zrzut ekranu 2025-05-16 121634](https://github.com/user-attachments/assets/bb41d5e4-d8ec-4c4c-a454-583138b57c9a)
+
+Zdeployowany pod i ucieta komunikacja sieciowa.
 
 Przetestuj działanie zabezpieczeń dla połączeń przychodzących i wychodzących z podejrzanego poda. Załącz do odpowiedzi odpowiednie Security Violations z NeuVectora pokazujące zablokowaną próbę naruszenia blokady.**5pkt**
 
