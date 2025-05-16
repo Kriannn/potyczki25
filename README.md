@@ -62,6 +62,8 @@ Potrzebujemy Persistent Storage, szybko! Tylko musi być taki, żeby umożliwia�
 
 Zainstaluj rozwiązanie typu software-defined storage w najnowszej stabilnej wersji na klastrze "potyczki", ustawiając w konfiguracji instalacyjnej 1 replikę i domyślny StorageClass. **5pkt**
 Sukces misji oznacza działającą aplikację storage oraz dostępną StorageClass.
+![Zrzut ekranu 2025-05-16 133836](https://github.com/user-attachments/assets/d12dd806-4e79-4e1b-b1bf-be99bb3825f5)
+![Zrzut ekranu 2025-05-16 134200](https://github.com/user-attachments/assets/97c45261-696d-45a6-97e4-ac9648e41d5a)
 
 ### Misja 3 - operacja "Koci Pazur"
 Kot prezesa się nudzi, należy mu zapewnić jakąś rozrywkę.
