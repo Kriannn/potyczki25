@@ -85,6 +85,7 @@ Włącz funkcję Auto-scan **1 pkt**
 
 Zbadaj czy istnieją podatności dla wersji Kubernetes uruchomionej na klastrze potyczki - podaj ich liczbę i jeśli nie jest równa zero, podnieś wersję Kubernetes klastra potyczki do 1.26. **5pkt**
 ![Zrzut ekranu 2025-05-16 114512](https://github.com/user-attachments/assets/99a27712-c9ab-434e-b740-cb710ed3ec2e)
+Po aktualzacji kubernetesa
 ![Zrzut ekranu 2025-05-16 124402](https://github.com/user-attachments/assets/d282a4a1-2db5-45ce-9e20-f19e882bad8a)
 
 Zbadaj czy istnieją podatności dla węzła (node) klastra potyczki - podaj ich liczbę i jeśli nie jest równa zero, dokonaj patchowania i aktualizacji systemu. **6pkt**
